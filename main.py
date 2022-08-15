@@ -20,4 +20,6 @@ for x in myresult:
     print(x)
  
 # disconnecting from server
-dataBase.close()
+# dataBase.close()
+
+app.run(host='localhost', port=5000)
