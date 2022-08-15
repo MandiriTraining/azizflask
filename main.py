@@ -11,7 +11,7 @@ dataBase = mysql.connector.connect(
 # preparing a cursor object
 cursorObject = dataBase.cursor()
   
-query = "select * from employees order by 1 asc limit 100"
+query = "select * from retail_db order by 1 asc limit 100"
 cursorObject.execute(query)
    
 myresult = cursorObject.fetchall()
