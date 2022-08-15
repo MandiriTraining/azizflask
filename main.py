@@ -22,4 +22,4 @@ for x in myresult:
 # disconnecting from server
 # dataBase.close()
 
-app.run(host='localhost', port=5000)
+# app.run(host='localhost', port=5000)
